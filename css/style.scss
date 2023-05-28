@@ -14,8 +14,7 @@ input::-webkit-inner-spin-button {
 
 //버튼 틀 정의
 @mixin btn {
-  width: 5em;
-  height: 3em;
+  padding: 0.5em;
   border-radius: 100%;
   font-size: 1.5em;
   font-weight: bolder;
@@ -38,7 +37,7 @@ input::-webkit-inner-spin-button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 60%;
+    width: 90%;
     min-height: 438px;
     max-height: 438px;
     background-color: rgba(255, 255, 255, 0.57);
@@ -60,15 +59,18 @@ input::-webkit-inner-spin-button {
       color: red;
       margin: 1em;
     }
+    .inputArea{
+      min-width: 305px;
+    }
     input {
-      width: 20em;
-      height: 3em;
+      width: 60%;
+      padding: 0.5em;
       text-align: center;
       background-color: black;
       border: 5px solid green;
       border-radius: 3em;
       color: white;
-      font-size: 18px;
+      font-size: 13px;
       font-weight: bolder;
     }
     .playBtn {
